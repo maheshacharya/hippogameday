@@ -49,8 +49,8 @@ public class RosterDocument extends BaseDocument {
     }
 
     @HippoEssentialsGenerated(internalName = "{{namespace}}:image")
-    public GamedayImageset getImage() {
-        return getLinkedBean("{{namespace}}:image", GamedayImageset.class);
+    public HippoGalleryImageSet getImage() {
+        return getLinkedBean("{{namespace}}:image", HippoGalleryImageSet.class);
     }
 }
 
