@@ -1,0 +1,30 @@
+{
+  "hippo:types": {
+    "{{namespace}}:rosterdocument":   {
+      "en":     {
+        "{{namespace}}:description": "Description",
+        "jcr:name": "rosterdocument",
+        "{{namespace}}:title": "Title",
+        "{{namespace}}:link": "Roster Document URL"
+      },
+      "nl":     {
+        "{{namespace}}:description": "Beschrijving",
+        "jcr:name": "rosterdocument",
+        "{{namespace}}:title": "Titel",
+        "{{namespace}}:link": "rosterdocument URL"
+      },
+      "fr":     {
+        "{{namespace}}:description": "Description",
+        "jcr:name": "Vidéo",
+        "{{namespace}}:title": "Titre",
+        "{{namespace}}:link": "URL vidéo"
+      },
+      "de":     {
+        "{{namespace}}:description": "Beschreibung",
+        "jcr:name": "rosterdocument",
+        "{{namespace}}:title": "Titel",
+        "{{namespace}}:link": "rosterdocument-URL"
+      }
+    }
+  }
+}
