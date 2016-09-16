@@ -22,8 +22,9 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
-import com.dev9.hippo.beans.Featured;
-import com.dev9.hippo.beans.GamedayImageset;
+import  {{beansPackage}}.GamedayImageset;
+
+
 
 @HippoEssentialsGenerated(internalName = "{{namespace}}:rosterdocument")
 @Node(jcrType = "{{namespace}}:rosterdocument")
@@ -48,9 +49,9 @@ public class RosterDocument extends BaseDocument {
         return getHippoHtml("{{namespace}}:description");
     }
 
-    @HippoEssentialsGenerated(internalName = "{{namespace}}:image")
-    public HippoGalleryImageSet getImage() {
-        return getLinkedBean("{{namespace}}:image", HippoGalleryImageSet.class);
-    }
+     @HippoEssentialsGenerated(internalName = "{{namespace}}:image")
+       public GamedayImageset getImage() {
+           return getLinkedBean("{{namespace}}:image", GamedayImageset.class);
+       }
 }
 
