@@ -20,10 +20,12 @@
 
 
     <instructionSet>
+configuration/queries/templates/
 
         <cnd documentType="rosterdocument" superType="{{namespace}}:basedocument,hippostd:relaxed,hippotranslation:translated"/>
-
         <xml action="copy" source="instructions/xml/namespace/rosterdocument-namespace.xml" target="/hippo:namespaces/{{namespace}}"/>
+        <xml action="copy" source="instructions/xml/queries/new-roster-document.xml" target="/hippo:configuration/hippo:queries/hippo:templates"/>
+        <xml action="copy" source="instructions/xml/queries/new-roster-folder.xml" target="/hippo:configuration/hippo:queries/hippo:templates"/>
         <file action="copy" binary="true" source="instructions/images/hippogameday.png" target="{{imagesRoot}}/essentials/catalog-component-icons/hippogameday.png"/>
         <file action="copy" source="instructions/java/hippogameday.txt" target="{{beansFolder}}/RosterDocument.java"/>
 
