@@ -20,7 +20,6 @@
 
 
     <instructionSet>
-configuration/queries/templates/
 
         <cnd documentType="rosterdocument" superType="{{namespace}}:basedocument,hippostd:relaxed,hippotranslation:translated"/>
         <xml action="copy" source="instructions/xml/namespace/rosterdocument-namespace.xml" target="/hippo:namespaces/{{namespace}}"/>
